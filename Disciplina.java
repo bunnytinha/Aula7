@@ -3,7 +3,7 @@ public class Disciplina
 {
    //atributos
    private String nome;
-   private boolean pratica = true;
+   private boolean pratica;
    //construtor
    public Disciplina (String nome, boolean pratica)
    {
