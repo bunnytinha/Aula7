@@ -31,6 +31,6 @@ public class Atribuicao
    //metodo getDados
    public String getDados()
    {
-      return "Atribuicao [ professor = " + professor + ", disciplina = " + disciplina + "]";
+      return "Atribuicao [ professor = " + professor.getDados() + ", disciplina = " + disciplina.getDados() + "]";
    }
 }
