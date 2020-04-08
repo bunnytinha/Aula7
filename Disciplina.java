@@ -2,27 +2,27 @@
 public class Disciplina
 {
    //atributos
-   private String nome;
+   private String nomeD;
    private boolean pratica;
    //construtor
-   public Disciplina (String nome, boolean pratica)
+   public Disciplina (String nomeD, boolean pratica)
    {
-      this.nome = nome;
+      this.nomeD = nomeD;
       this.pratica = pratica;
    }
    //metodos de acesso
-   public String getNome()
+   public String getNomeD()
    {
-      return nome;
+      return nomeD;
    }
    public boolean getPratica()
    {
       return pratica;
    }
    //metodo modificador
-   public void setNome(String nome)
+   public void setNomeD(String nomeD)
    {
-      this.nome = nome;
+      this.nomeD = nomeD;
    }
    public void setPratica(boolean pratica)
    {
@@ -31,6 +31,6 @@ public class Disciplina
    //metodo getDados
    public String getDados()
    {
-     return "Disciplina [ nome = " + nome + ", pratica = " + pratica + "]";  
+     return "Disciplina [ nome = " + nomeD + ", pratica = " + pratica + "]";  
    }
 }
